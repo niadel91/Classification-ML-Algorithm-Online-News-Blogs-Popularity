@@ -52,19 +52,92 @@ We also noticed that there is a huge variance that is being explained by the Eig
 </table>
 Soft Voting has better score than Hard Voting.
 
-Bagging Scores	DTree	Logistic Regression
-Train	.84	.84
-Test	.89	.89
+<table>
+  <tr>
+    <td>
+      Bagging Scores
+    </td>
+    <td>DTree
+      </td>
+    <td>Logistic Regression
+      </td>
+    </tr>
+<tr>
+  <td>Train
+    </td>
+  <td>.84
+    </td>
+  <td>.84
+    </td>
+  </td></tr>
+<tr>
+  <td>Test
+    </td>
+  <td>.89
+    </td>
+  <td>.89
+    </td>
+  </td></tr>
+</table>
+
 There is no difference in the Train and Test Scores for both the models.
 
-Pasting Scores	RBF	Linear
-Train	.84	.84
-Test	.89	.89
+<table>
+  <tr>
+    <td>
+      Pasting Scores
+    </td>
+    <td>RBF
+      </td>
+    <td>Linear Kernel
+      </td>
+    </tr>
+<tr>
+  <td>Train
+    </td>
+  <td>.84
+    </td>
+  <td>.84
+    </td>
+  </td></tr>
+<tr>
+  <td>Test
+    </td>
+  <td>.89
+    </td>
+  <td>.89
+    </td>
+  </td></tr>
+</table>
+
 There is no difference in the Train and Test Scores for both the models.
 
-Pasting Scores	DTree without Depth	DTree with max_depth - 5
-Train	.84	.93
-Test	.89	.87
+  <tr>
+    <td>
+      Pasting Scores
+    </td>
+    <td>DTree without Depth
+      </td>
+    <td>DTree with max_depth - 5
+      </td>
+    </tr>
+<tr>
+  <td>Train
+    </td>
+  <td>.84
+    </td>
+  <td>.93
+    </td>
+  </td></tr>
+<tr>
+  <td>Test
+    </td>
+  <td>.89
+    </td>
+  <td>.87
+    </td>
+  </td></tr>
+</table>
 This is a case of overfitting for the DTree with max_depth=5
 
 Gradient Boosting Classifier
