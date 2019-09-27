@@ -110,7 +110,7 @@ There is no difference in the Train and Test Scores for both the models.
 </table>
 
 There is no difference in the Train and Test Scores for both the models.
-
+<table>
   <tr>
     <td>
       Pasting Scores
