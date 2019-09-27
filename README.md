@@ -1,16 +1,18 @@
-Classification Project - Online News Popularity
+## Classification Project - Online News Popularity
 Checking the popularity of different online news posts.
 
 Data Set Information:
+<ul>
+<li>The articles were published by Mashable (www.mashable.com) and their content as the rights to reproduce it belongs to them. Hence, this dataset does not share the original content but some statistics associated with it. The original content be publicly accessed and retrieved using the provided urls.</li>
+<li>Acquisition date: January 8, 2015</li>
+<li>The estimated relative performance values were estimated by the authors using a Random Forest classifier and a rolling windows as assessment method. See their article for more details on how the relative performance values were set.</li>
+<li>We have assumed that the most popular posts are shared the most and calculated the average number of posts as 3501. We have also divided the data into 2 classes</li>
+  </ul>
 
-The articles were published by Mashable (www.mashable.com) and their content as the rights to reproduce it belongs to them. Hence, this dataset does not share the original content but some statistics associated with it. The original content be publicly accessed and retrieved using the provided urls.
-Acquisition date: January 8, 2015
-The estimated relative performance values were estimated by the authors using a Random Forest classifier and a rolling windows as assessment method. See their article for more details on how the relative performance values were set.
-We have assumed that the most popular posts are shared the most and calculated the average number of posts as 3501. We have also divided the data into 2 classes
-
-class-4(popular posts, if the average number of posts>3501) and
-class-2 (not-so-popular posts, if the average number of posts<=3501) We intend to anticipate the popularity(class) of the post and it is our target variable.
-Data Source - UCI
+<li>class-4(popular posts, if the average number of posts>3501) and</li>
+<li>class-2 (not-so-popular posts, if the average number of posts<=3501) We intend to anticipate the popularity(class) of the post and it is our target variable.</li>
+  
+## Data Source - UCI
 Data source link - https://archive.ics.uci.edu/ml/datasets/Online+News+Popularity#
 
 Model Summary
