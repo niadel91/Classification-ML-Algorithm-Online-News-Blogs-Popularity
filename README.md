@@ -1,5 +1,6 @@
 ## Classification Project - Online News Popularity
 Checking the popularity of different online news posts.
+<hr>
 
 Data Set Information:
 <ul>
@@ -15,16 +16,40 @@ Data Set Information:
 ## Data Source - UCI
 Data source link - https://archive.ics.uci.edu/ml/datasets/Online+News+Popularity#
 
-Model Summary
+## Model Summary
+<hr>
 The Accuracy score for the reduced dataset is similar or somewhat better than the score of the unreduced dataset(exception - Logistic Regression, where the Accuracy rate for the unreduced data is 88.93% which is better than 87.3% for the unreduced dataset and also Decision Tree Models).
 
 We have used 2 PC for our different models. There is not much difference in the scores for the reduced and unreduced data, maybe because we have taken fewer number of Principal Components.
 
 We also noticed that there is a huge variance that is being explained by the Eigen Vectors.
-
-Voting Classifers Scores	Hard Voting	Soft Voting
-Train	.85	.86
-Test	.89	.89
+<table>
+  <tr>
+    <td>
+      Voting Classifers Scores
+    </td>
+    <td>Hard Voting
+      </td>
+    <td>Soft Voting
+      </td>
+    </tr>
+<tr>
+  <td>Train
+    </td>
+  <td>.85
+    </td>
+  <td>.86
+    </td>
+  </td></tr>
+<tr>
+  <td>Test
+    </td>
+  <td>.89
+    </td>
+  <td>.89
+    </td>
+  </td></tr>
+</table>
 Soft Voting has better score than Hard Voting.
 
 Bagging Scores	DTree	Logistic Regression
@@ -46,5 +71,6 @@ Gradient Boosting Classifier
 
 Train Score - 0.8472 , Test Score - 0.8814
 
-ANN
+<b>ANN</b>
+
 The Artificial Neural Network has also given us a good enough Accuracy Score for our model(87.31%), which is in sync with the accuracy scores of our other models so the perceptron model is said to be working for our dataset.
